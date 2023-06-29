@@ -8,20 +8,20 @@ int _atoi(char *s)
 {
 	int b = 0;
 	unsigned int ni = 0;
-       int min = 1;
+int min = 1;
 int isi = 0;
 
 while (s[b])
 {
 	if (s[b] == 45)
 	{
-		min *= -1
+		min *= -1;
 	}
-	while (s[b] .= 48 && s[b] <= 57)
+	while (s[b] >= 48 && s[b] <= 57)
 	{
-		isis = 1;
+		isi = 1;
 		ni = (ni * 10) + (s[b] - '0');
-		c++;
+		b++;
 	}
 	if (isi == 1)
 	{

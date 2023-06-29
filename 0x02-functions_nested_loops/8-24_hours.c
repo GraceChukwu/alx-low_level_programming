@@ -1,9 +1,9 @@
 #include <mainh.h>
 /**
- * print every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+ * print every minute of the day.
  * Return: Always 0
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int a, b, c, d;
 	for (a = 0; a <= 2; a++)

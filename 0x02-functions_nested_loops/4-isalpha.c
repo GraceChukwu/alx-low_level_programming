@@ -4,15 +4,15 @@
  * @c: the charater in ASCII code
  * Return: 1 for uc lc letter. 0 for others
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
-
-	return (1);
-
-else
-
-	return (0);
-
-_putchar("\n");
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+	_putchar("\n");
 }
