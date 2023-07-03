@@ -1,6 +1,6 @@
-#include <main.h>
+#include "main.h"
 /**
- * isalpha - print letter in lowercase or uppercase. 
+ *_isalpha - print letter in lowercase or uppercase.
  * @c: the charater in ASCII code
  * Return: 1 for uc lc letter. 0 for others
  */
@@ -14,5 +14,5 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-	_putchar("\n");
+	_putchar('\n');
 }
