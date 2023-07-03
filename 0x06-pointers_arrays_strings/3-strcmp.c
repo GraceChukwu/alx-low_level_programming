@@ -19,4 +19,5 @@ return (s1[b] - s2[b]);
 }
 b++;
 return (0);
+
 }
