@@ -15,13 +15,13 @@ for (b = 0; accept[b]; b++)
 {
 if (*s == accept[b])
 {
-n++
+a++;
 break;
 }
 else if (accept[b + 1] == '\0')
 return (a);
 }
-s++
+s++;
 }
 return (a);
 }
